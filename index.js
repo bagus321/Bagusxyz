@@ -965,6 +965,14 @@ function _0x28516f(_0x117598,_0x223b33,_0x1ed7f0,_0x57f108,_0x424dd4){return _0x
          case 'sewa':
          case 'sewabot': {
             reply(sewabotnya)
+            baguscok = fs.readFileSync('./baguscok.mp3')
+         	alpha.sendMessage(m.chat, {
+               audio: baguscok,
+               mimetype: 'audio/mpeg',
+               ptt: true
+            }, {
+               quoted: m
+            })
          }
          break
          case 'absen':
@@ -3151,14 +3159,6 @@ case 'setmenu2': {
          case 'help':
          case 'panel':
          case 'menu': {
-         	baguscok = fs.readFileSync('./baguscok.mp3')
-         	alpha.sendMessage(m.chat, {
-               audio: baguscok,
-               mimetype: 'audio/mpeg',
-               ptt: true
-            }, {
-               quoted: m
-            })
             try {
                hit_total = await fetchJson('https://api.countapi.xyz/hit/api-alphabot.herokuapp.com/visits')
             } catch {
