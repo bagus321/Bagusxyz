@@ -728,7 +728,8 @@ exports.listMenu = (time, salam, pushname, prefix) => {
     return `*Selamat ${salam} ${pushname}*
 *⌚Time Server : ${time}*
 *📚 List-Menu Bot :*
-*✉️ My Group : https://chat.whatsapp.com/BYvwg2qgLvr3T6JRzBzLPp*
+*🔓 Status : ▂ ▃ ▅ ▆ █*
+
 
 ╭─❒ 「 Bot Info 」 
 │○ !owner
