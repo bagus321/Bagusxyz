@@ -20,17 +20,19 @@ global.APIKeys = {
    'https://api.zeeoneofc.my.id': 'GVdh52kM', // 👉 login https://api.zeeoneofc.my.id to get apikey
 }
 global.sewabotnya = `
-SEWA BOT LIST
-•1 HARI = FREE
-•1 MINGGU = 10K
-•1 BULAN = 25K
-•PERMANET = 50K
-JADI OWNER
-•1 HARI = 5K
-•1 MINGGU = 30K
-•1 BULAN = 80K
-•PERMANENT 100K
-
+◆ ▬▬▬▬ ❴✪❵ ▬▬▬▬ ◆
+𝙿𝚁𝙸𝙲𝙴𝙻𝙸𝚂𝚃 
+𝚂𝙴𝚆𝙰 𝙱𝙾𝚃 
+•𝟷 𝙷𝙰𝚁𝙸 = 𝙵𝚁𝙴𝙴
+•𝟷 𝙼𝙸𝙽𝙶𝙶𝚄 = 𝟷𝟶𝙺
+•𝟷 𝙱𝚄𝙻𝙰𝙽 = 𝟸𝟻𝙺
+•𝙿𝙴𝚁𝙼𝙰𝙽𝙴𝙽𝚃 = 𝟻𝟶𝙺
+𝙹𝙰𝙳𝙸 𝙾𝚆𝙽𝙴𝚁
+•𝟷 𝙷𝙰𝚁𝙸 = 𝟻𝙺
+•𝟷 𝙼𝙸𝙽𝙶𝙶𝚄 = 𝟹𝟶𝙺
+•𝟷 𝙱𝚄𝙻𝙰𝙽 = 𝟾𝟶𝙺
+•𝙿𝙴𝚁𝙼𝙰𝙽𝙴𝙽𝚃 𝟷𝟶𝟶𝙺
+◆ ▬▬▬▬▬▬▬▬▬▬ ◆
 `
 // setting 
 global.firtsChat = true //send firts message to new user
@@ -58,7 +60,7 @@ global.youtube = "None" //bebas asal jan hapus
 global.myweb2 = "https://github.com/BagusXyz" //bebas
 global.grupwa = "https://chat.whatsapp.com/BYvwg2qgLvr3T6JRzBzLPp" //bebas
 global.email = "BagusXyz08@gmail.com" //bebas
-global.region = "Indonesia" //bebas
+global.region = "Indonesia" //bebas𝙇𝙊𝙇𝙄 𝘽𝙊𝙏
 global.timezone = 'Asia/Jakarta' //  timezone list : https://www.php.net/manual/en/timezones.php 
 global.premium = ['62895700121662'] //premium user
 global.owner = ["62895700121662"] //ganti agar fitur owner bisa di gunakan
@@ -69,7 +71,7 @@ global.donasi = "./image/donasi.jpg" // foto donasi di folder image
 global.background_welcome = "https://telegra.ph/file/edca4b513ddf29fd52c0e.jpg" // maks size 30kb, agar welcome image nya tdk delay
 global.thumbGif = 'https://telegra.ph/file/e90bef3779d3c5812a5d1.mp4'
 global.packname = 'BagusXyz' //sticker wm ubah
-global.author = 'LoliBot-Md\n\n\n\n\n\n\n\n\n\n\n\n\m+62895700121662' //sticker wm ganti nama kalian
+global.author = '✻ ═════ •❅• ═════ ✼\n✿𝙇\n✿𝙊\n✿𝙇\n✿𝙄\n✿𝘽\n✿𝙊\n✿𝙏\n✿𝙱𝚈 𝙱𝙰𝙶𝚄𝚂 𝚇𝚈𝚉\n𝙾𝚆𝙽𝙴𝚁 𝙽𝚄𝙼𝙱𝙴𝚁:+𝟼𝟸𝟾𝟿𝟻𝟽𝟶𝟶𝟷𝟸𝟷𝟼𝟼𝟸' //sticker wm ganti nama kalian
 global.sessionName = 'session'
 //type menu for menu
 global.typemenu = 'document' //
@@ -82,8 +84,8 @@ global.limitawal = {
 }
 global.buttonDefault = [{
    urlButton: {
-      displayText: 'Youtube Channel',
-      url: youtube
+      displayText: 'My Group',
+      url: grupwa
    }
 }, {
    urlButton: {
