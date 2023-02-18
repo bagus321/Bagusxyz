@@ -1,24 +1,6 @@
 {
 
-  "users": {
-   "62895700121662@s.whatsapp.net": {
-      "joincount": 1,
-      "healt": 100,
-      "level": 10,
-      "exp": 100000,
-      "limit": 1000,
-      "lastseen": 0,
-      "usebot": 0,
-      "lastclaim": 0,
-      "lastclaim2": 0,
-      "lastngojek": 0,
-      "lastnebang": 0,
-      "lastnyampah": 0,
-      "lastowner": 0,
-      "money": 9999999999999999,
-      "diamond": 0,
-      }
-},
+  "users": {},
   "chats": {},
   "database": {},
   "game": {},
