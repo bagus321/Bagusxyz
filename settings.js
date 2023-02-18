@@ -70,7 +70,7 @@ global.thumbnail = "./image/lol.jpg" // ini lol.jpg adalah nama foto di folder i
 global.donasi = "./image/donasi.jpg" // foto donasi di folder image
 global.background_welcome = "https://telegra.ph/file/edca4b513ddf29fd52c0e.jpg" // maks size 30kb, agar welcome image nya tdk delay
 global.thumbGif = 'https://telegra.ph/file/e90bef3779d3c5812a5d1.mp4'
-global.packname = 'BagusXyz' //sticker wm ubah
+global.packname = ' ' //sticker wm ubah
 global.author = '✻ ═════ •❅• ═════ ✼\n✿𝙇\n✿𝙊\n✿𝙇\n✿𝙄\n✿𝘽\n✿𝙊\n✿𝙏\n✿𝙱𝚈 𝙱𝙰𝙶𝚄𝚂 𝚇𝚈𝚉\n𝙾𝚆𝙽𝙴𝚁 𝙽𝚄𝙼𝙱𝙴𝚁:+𝟼𝟸𝟾𝟿𝟻𝟽𝟶𝟶𝟷𝟸𝟷𝟼𝟼𝟸' //sticker wm ganti nama kalian
 global.sessionName = 'session'
 //type menu for menu

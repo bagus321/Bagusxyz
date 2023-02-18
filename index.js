@@ -419,6 +419,23 @@ module.exports = alpha = async (alpha, m, mek, chatUpdate, store, reSize, _welco
             }
          }
       }
+      const lep = {
+         key: {
+            participant: `0@s.whatsapp.net`,
+            ...(from ? {
+               remoteJid: `6283136505591-1614953337@g.us`
+            } : {})
+         },
+         message: {
+            'contactMessage': {
+               'displayName': `${pushname}`,
+               'vcard': `BEGIN:VCARD\nVERSION:3.0\nN:XL;${pushname},;;;\nFN:${pushname},\nitem1.TEL;waid=${sender.split('@')[0]}:${sender.split('@')[0]}\nitem1.X-ABLabel:Ponsel\nEND:VCARD`,
+               'jpegThumbnail': pp_bot,
+               thumbnail: pp_bot,
+               sendEphemeral: true
+            }
+         }
+      }
       const fkontak = {
          key: {
             participant: `0@s.whatsapp.net`,
@@ -2707,7 +2724,6 @@ ${cpus.map((cpu, i) => `${i + 1}. ${cpu.model.trim()} (${cpu.speed} MHZ)\n${Obje
             if (/image/.test(mime)) {
                let media = await quoted.download()
                let encmedia = await alpha.sendImageAsSticker(m.chat, media, m, {
-                  packname: global.packname,
                   author: global.author
                })
                await fs.unlinkSync(encmedia)
@@ -2998,6 +3014,24 @@ ${cpus.map((cpu, i) => `${i + 1}. ${cpu.model.trim()} (${cpu.speed} MHZ)\n${Obje
             if (!m.quoted && !text) return reply(lang.NakDm())
             let users = m.mentionedJid[0] ? m.mentionedJid[0] : m.quoted ? m.quoted.sender : text.replace(/[^0-9]/g, '') + '@s.whatsapp.net'
             await alpha.groupParticipantsUpdate(m.chat, [users], 'demote').then((res) => reply(lang.ok())).catch((err) => reply(lang.err()))
+         }
+         break
+case 'say':
+case 'tts': {
+            if (db.data.settings[botNumber].userRegister && !db.data.users[m.sender].registered) return alpha.send2ButMes(m.chat, `🇮🇩 _Hi @${m.sender.split('@')[0]} silahkan verifikasi terlebih dahulu sebelum memakai fitur bot_${enter}${enter}🇺🇸 _Hi @${m.sender.split('@')[0]} please verify first before using the bot feature_`, `© ${ownername}`, `.daftar ` + pushname, `🇺🇸 Verify`, `.daftar ` + pushname, 'Daftar 🇮🇩', fkontak, [m.sender])
+            if (db.data.users[m.sender].limit < 1) return alpha.send2ButMes(m.chat, lang.Nolimit(prefix), `© ${ownername}`, `.daily`, `👉 Daily`, `.weekly`, `Weekly 👈`, m)
+            if (!text) return reply(`Example : ${prefix + command} Halo`)
+            let res = await fetch(`https://saipulanuar.ga/api/text-to-audio/tts?text=${text}&idbahasa=id`)
+            if (!res.ok) throw await res.text()
+            let img = await res.buffer()
+            alpha.sendMessage(m.chat, {
+               audio: img,
+               mimetype: 'audio/mpeg',
+               ptt: true
+            }, {
+               quoted: m
+            })
+            db.data.users[m.sender].limit -= 1
          }
          break
          case 'revoke':
@@ -3356,6 +3390,14 @@ case 'setmenu2': {
          case 'allmenu': {
             await sendButLoc(alpha, m.chat, `Hai kak ${pushname} 👋,  *${botname}* ` + '\n\n' + lang.listMenu(time, salam, pushname, prefix), '©' + ownername, pp_bot, buttonDefault3, {
                userJid: m.chat,
+               quoted: m
+            })
+            baguscok = fs.readFileSync('./menu.mp3')
+         	alpha.sendMessage(m.chat, {
+               audio: menu,
+               mimetype: 'audio/mpeg',
+               ptt: true
+            }, {
                quoted: m
             })
          }
@@ -4992,6 +5034,29 @@ case 'setmenu2': {
             db.data.users[m.sender].limit -= 1
          }
          break
+case 'gimage': {
+if (!q) return reply(`Example : ${prefix + command} kaori cicak`)
+reply(mess.wait)
+let gis = require('g-i-s')
+gis(text, async (error, result) => {
+n = result
+images = n[Math.floor(Math.random() * n.length)].url
+let buttons = [
+{buttonId: `gimage ${text}`, buttonText: {displayText: 'Next Image'}, type: 1}
+]
+let buttonMessage = {
+image: { url: images },
+caption: `*-------「 GIMAGE SEARCH 」-------*
+🤠 *Query* : ${text}
+🔗 *Media Url* : ${images}`,
+footer: ownername,
+buttons: buttons,
+headerType: 4
+}
+alpha.sendMessage(m.chat, buttonMessage, { quoted: m })
+})
+}
+break
          //sound
          case 'sound71':
          case 'sound72':
@@ -5149,7 +5214,7 @@ case 'setmenu2': {
 
          break
          case 'colorfulpubg': {
-            if (db.data.settings[botNumber].userRegister && !db.data.users[m.sender].registered) return alpha.send2ButMes(m.chat, `🇮🇩 _Hi @${m.sender.split('@')[0]} silahkan verifikasi terlebih dahulu sebelum memakai fitur bot_${enter}${enter}??🇸 _Hi @${m.sender.split('@')[0]} please verify first before using the bot feature_`, `© ${ownername}`, `.daftar ` + pushname, `🇺🇸 Verify`, `.daftar ` + pushname, 'Daftar 🇮🇩', fkontak, [m.sender])
+            if (db.data.settings[botNumber].userRegister && !db.data.users[m.sender].registered) return alpha.send2ButMes(m.chat, `🇮🇩 _Hi @${m.sender.split('@')[0]} silahkan verifikasi terlebih dahulu sebelum memakai fitur bot_${enter}${enter}🇺🇸 _Hi @${m.sender.split('@')[0]} please verify first before using the bot feature_`, `© ${ownername}`, `.daftar ` + pushname, `🇺🇸 Verify`, `.daftar ` + pushname, 'Daftar 🇮🇩', fkontak, [m.sender])
             if (db.data.users[m.sender].limit < 1) return alpha.send2ButMes(m.chat, lang.Nolimit(prefix), `© ${ownername}`, `.daily`, `👉 Daily`, `.weekly`, `Weekly 👈`, m)
             if (!text) return reply(lang.colorfulpubg(prefix, command))
             if (!text.includes('|')) return reply(lang.colorfulpubg(prefix, command))
