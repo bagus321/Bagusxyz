@@ -728,6 +728,7 @@ exports.listMenu = (time, salam, pushname, prefix) => {
     return `*Selamat ${salam} ${pushname}*
 *⌚Time Server : ${time}*
 *📚 List-Menu Bot :*
+*✉️ My Group : https://chat.whatsapp.com/BYvwg2qgLvr3T6JRzBzLPp*
 
 ╭─❒ 「 Bot Info 」 
 │○ !owner
@@ -784,6 +785,21 @@ exports.listMenu = (time, salam, pushname, prefix) => {
 │○ !setpppanjang
 ╰❒ !setppbot [reply image]
 
+╔══》𝔸𝕋𝕋𝔸ℂ𝕂 ℕ𝕌𝕄𝔹𝔼ℝ
+╠⟩ ${prefix}kill 628𝙭𝙭𝙭𝙭
+╠⟩ ${prefix}dor 628𝙭𝙭𝙭𝙭
+╠⟩ ${prefix}troli 628𝙭𝙭𝙭𝙭
+╠⟩ ${prefix}turu 628𝙭𝙭𝙭𝙭
+╠⟩ ${prefix}bom 628𝙭𝙭𝙭𝙭
+╠⟩ ${prefix}trava 628𝙭𝙭𝙭𝙭
+╠⟩ ${prefix}crash 628𝙭𝙭𝙭𝙭
+╠⟩ ${prefix}brutal 628𝙭𝙭𝙭𝙭
+╠⟩ ${prefix}jagoan 628𝙭𝙭𝙭𝙭
+╠⟩ ${prefix}mental 628𝙭𝙭𝙭𝙭
+╠⟩ ${prefix}katalog 628𝙭𝙭𝙭𝙭
+╠⟩ ${prefix}darkness 628𝙭𝙭𝙭𝙭
+╚════════════════
+
 ╭─❒ 「 Store Menu 」
 │○ !list
 │○ !addlist [key|respond]
@@ -819,6 +835,30 @@ exports.listMenu = (time, salam, pushname, prefix) => {
 │○ !start
 │○ !skip
 ╰❒ !stop
+
+╭─❒ 「 Game Menu 」
+│○ !wangy
+│○ !jadian
+│○ !jodohku
+│○ !tembak
+│○ !tolak
+│○ !terima
+│○ !putusin
+│○ !ikhlasin
+│○ !cekpacar
+│○ !kuismath
+│○ !tebakgambar
+│○ !tebakkata
+│○ !tebakbendera
+│○ !tebakkalimat
+│○ !tebaksiapa
+│○ !tebakkabupaten
+│○ !tebakkimia
+│○ !tebaklirik
+│○ !tebaktebakan
+│○ !tekateki
+│○ !susunkata
+╰❒ !caklontong
 
 
 ╭─❒ 「 Database 」 
@@ -881,8 +921,6 @@ exports.listMenu = (time, salam, pushname, prefix) => {
 │○ !delsewa
 │○ !listsewa
 │○ !ceksewa
-│○ !register
-│○ !unregister
 │○ !ceksn
 │○ !listonline
 │○ !sider
@@ -969,6 +1007,18 @@ exports.listMenu = (time, salam, pushname, prefix) => {
 │○ !brainly [query]
 ╰❒ !pinterest [query]
 
+╭─❒ 「 Random Cewe 」
+│○ !china 
+│○ !indonesia 
+│○ !malaysia 
+│○ !thailand 
+│○ !korea 
+│○ !japan 
+│○ !vietnam 
+│○ !jenni 
+│○ !jiso 
+│○ !lisa  
+╰❒ !rose
 
 ╭─❒ 「 Converter 」
 │○ !emoji [😭]
@@ -982,6 +1032,19 @@ exports.listMenu = (time, salam, pushname, prefix) => {
 │○ !tomp4 [sticker]
 ╰❒${prefix}toimg [reply sticker]
 
+╭─❒ 「 Cek Menu 」
+│○ !rate 
+│○ !gantengcek
+│○ !cekganteng
+│○ !cantikcek
+│○ !cekcantik
+│○ !sangecek
+│○ !ceksange
+│○ !gaycek
+│○ !cekgay
+│○ !lesbicek
+│○ !ceklesbi
+╰❒ !cekmati
 
 ╭─❒ 「 Image Effect 」 
 │○ !wanted [reply image/stiker]
@@ -1519,27 +1582,6 @@ exports.listMenu = (time, salam, pushname, prefix) => {
 │○ !memegen [text|text]
 ╰❒
 
-╭─❒ 「 Game Menu 」
-│○ !tembak
-│○ !tolak
-│○ !terima
-│○ !putusin
-│○ !ikhlasin
-│○ !cekpacar
-│○ !kuismath
-│○ !tebakgambar
-│○ !tebakkata
-│○ !tebakbendera
-│○ !tebakkalimat
-│○ !tebaksiapa
-│○ !tebakkabupaten
-│○ !tebakkimia
-│○ !tebaklirik
-│○ !tebaktebakan
-│○ !tekateki
-│○ !susunkata
-╰❒ !caklontong
-
 
 ╭─❒ 「 Asupan Menu 」
 │○ !chika
@@ -1588,18 +1630,6 @@ exports.listMenu = (time, salam, pushname, prefix) => {
 │○ !kawan_sponsbob
 ╰❒ !tyni
 
-╭─❒ 「 Random Cewe 」
-│○ !china 
-│○ !indonesia 
-│○ !malaysia 
-│○ !thailand 
-│○ !korea 
-│○ !japan 
-│○ !vietnam 
-│○ !jenni 
-│○ !jiso 
-│○ !lisa  
-╰❒ !rose
 
 ╭─❒ 「 Logo Menu 」
 │○ !anonymous2
@@ -1754,11 +1784,11 @@ exports.listMenu = (time, salam, pushname, prefix) => {
 ╭─❒ 「 TqTo 」 
 │○ My God
 │○ My Parents
-│○ Fatih A.
-│○ Ferdi
-│○ DikaArdnt
-│○ Mhankbarbar
-│○ Nurutomo
+│○ BagusXyz
+│○ IndraXD 
+│○ Sahrul 
+│○ Daud
+│○ Dabit A
 │○ Rashid
 │○ ZeeoneOfc
 │○ Penyedia Module
@@ -1953,6 +1983,22 @@ exports.group = (prefix) =>{
 │○ !group [open/close]
 │○ !tagall [text]
 ╰❒ !hidetag [text]
+`}
+
+exports.cekmenu = (prefix) =>{
+return`╭─❒ 「 Cek Menu 」
+│○ !rate 
+│○ !gantengcek
+│○ !cekganteng
+│○ !cantikcek
+│○ !cekcantik
+│○ !sangecek
+│○ !ceksange
+│○ !gaycek
+│○ !cekgay
+│○ !lesbicek
+│○ !ceklesbi
+╰❒ !cekmati
 `}
 
 exports.anime = (prefix) =>{
