@@ -60,7 +60,7 @@ global.youtube = "None" //bebas asal jan hapus
 global.myweb2 = "https://github.com/BagusXyz" //bebas
 global.grupwa = "https://chat.whatsapp.com/BYvwg2qgLvr3T6JRzBzLPp" //bebas
 global.email = "BagusXyz08@gmail.com" //bebas
-global.region = "Indonesia" //bebas𝙇𝙊𝙇𝙄 𝘽𝙊𝙏
+global.region = "Indonesia" //bebas
 global.timezone = 'Asia/Jakarta' //  timezone list : https://www.php.net/manual/en/timezones.php 
 global.premium = ['62895700121662'] //premium user
 global.owner = ["62895700121662"] //ganti agar fitur owner bisa di gunakan
@@ -94,13 +94,13 @@ global.buttonDefault = [{
    }
 }, {
    quickReplyButton: {
-      displayText: '🏓 Ping',
-      id: '.ping'
+      displayText: '📵 Bug Menu',
+      id: '.bugmenu'
    }
 }, {
    quickReplyButton: {
-      displayText: 'Owner 👤',
-      id: 'owner'
+      displayText: '♨️' Sewa Bot,
+      id: '.sewa'
    }
 }, {
    quickReplyButton: {
