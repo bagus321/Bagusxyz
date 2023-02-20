@@ -99,7 +99,7 @@ global.buttonDefault = [{
    }
 }, {
    quickReplyButton: {
-      displayText: '♨️' Sewa Bot,
+      displayText: '♨️Sewa Bot',
       id: '.sewa'
    }
 }, {
