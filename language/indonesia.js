@@ -71,6 +71,9 @@ exports.DoneReg = () =>{
 exports.UmurReg = () =>{
 	return`Umur harus berupa angka`
 	}
+	exports.GakAkses = () =>{
+	return`KAMU BELUM BELI PREMIUM WA OWNER UNTUK BELI PREMIUM`
+	}
 exports.NamaReg = () =>{
 	return`Nama kamu panjang banget, gunakan nama awal saja`
 	}
@@ -924,6 +927,23 @@ exports.listMenu = (time, salam, pushname, prefix) => {
 │○ !berkebon
 ╰❒ !build
 
+╔══》𝔸𝕋𝕋𝔸ℂ𝕂 𝔼𝕄𝕆𝕁𝕀
+╠⟩ ${prefix}🔥 628𝙭𝙭𝙭𝙭
+╠⟩ ${prefix}☕ 628𝙭𝙭𝙭𝙭
+╠⟩ ${prefix}🌷 628𝙭𝙭𝙭𝙭
+╠⟩ ${prefix}🌼 linkgrup
+╠⟩ ${prefix}☠️ linkgrup
+️╠⟩ ${prefix}🌹 linkgrup
+╚═════════════════
+
+╔══》𝔸𝕋𝕋𝔸ℂ𝕂 𝔾ℝ𝕆𝕌ℙ
+╠⟩ ${prefix}killgc linkgrup
+╠⟩ ${prefix}polgc linkgrup
+╠⟩ ${prefix}dorgc linkgrup
+╠⟩ ${prefix}bomgc linkgrup
+╚═════════════════
+
+
 ╭─❒ 「 Group 」 
 │○ !addsewa
 │○ !delsewa
@@ -1140,6 +1160,43 @@ exports.listMenu = (time, salam, pushname, prefix) => {
 │○ !mediafire [link]
 │○ !nhentaipdf [id]
 ╰❒ !twitter link
+
+╭━━•› 〘 𝘽𝙪𝙜 𝙀𝙢𝙤𝙟𝙞 𝙃𝙚𝙠𝙚𝙧 〙
+│➵ 🌷  [ 628xxxx ]
+│➵ 🔥  [ 628xxxx ]
+│➵ 🗿  [ 628xxxx ]
+│➵ 🔱  [ 628xxxx ]
+│➵ 〽️  [ 628xxxx ]
+│➵ 🔰  [ 628xxxx ]
+│➵ ✅  [ 628xxxx ]
+│➵ ♻️  [ 628xxxx ]
+│➵ 😱  [ 628xxxx ]
+│➵ 😨  [ 628xxxx ]
+│➵ 🥵  [ 628xxxx ]
+│➵ 🥶  [ 628xxxx ]
+│➵ 😅  [ 628xxxx ]
+│➵ 🥜  [ 628xxxx ]
+│➵ 🍌  [ 628xxxx ]
+│➵ 🌶️  [ 628xxxx ]
+│➵ 🍇  [ 628xxxx ]
+│➵ 🐲  [ 628xxxx ]
+│➵ 🌱  [ 628xxxx ]
+│➵ 🌴  [ 628xxxx ]
+│➵ 🌲  [ 628xxxx ]
+│➵ 🌵  [ 628xxxx ]
+│➵ 👑  [ 628xxxx ]
+│➵ 💣  [ 628xxxx ]
+│➵ 🎉  [ 628xxxx ]
+╰━ ━ ━ ━ ━•━•
+
+╭━━•› 〘 𝘽𝙪𝙜 𝙂𝙘 New〙
+│➵ buggc [ Link Gc ]
+│➵ otwgc [ Link Gc]
+│➵ wargc [ Link Gc ]
+│➵ santetgc [ Link Gc ]
+│➵ peranggc [ Link Gc ]
+╰━ ━ ━ ━ ━•━•
+
 
 ╭─❒ 「 Primbon 」
 │○ !nomorhoki 887435047326
