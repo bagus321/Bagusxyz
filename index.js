@@ -3669,13 +3669,11 @@ ${cpus.map((cpu, i) => `${i + 1}. ${cpu.model.trim()} (${cpu.speed} MHZ)\n${Obje
          case 'creator': {
             sendContact(alpha, m.chat, global.owner, m)
          
-         result = fs.readFileSync(`./sigma.webp`)
-				alpha.sendMessage(m.chat, { sticker: result }, { quoted: m })
-				
+         
 				sigmas = fs.readFileSync(`./sigmagif.webp`)
 				alpha.sendMessage(m.chat, { sticker: sigmas }, { quoted: m })
 				
-sigmanya = fs.readFileSync('./sigma.mp3')
+sigmanya = fs.readFileSync('./sigmanya.mp3')
          	alpha.sendMessage(m.chat, {
                audio: sigmanya,
                mimetype: 'audio/mpeg',
@@ -3841,7 +3839,7 @@ case 'bkp':
             }
             db.data.users[m.sender].limit -= 1
          }
-         alpha.sendMessage(from, {text:bug}, {quoted:m})
+         
 stikernya = fs.readFileSync('./stikernya.mp3')
          	alpha.sendMessage(m.chat, {
                audio: stikernya,
