@@ -683,8 +683,6 @@ Selama ${clockString(new Date - user.afkTime)}
         			alpha.sendPresenceUpdate('available', m.chat)
         			}*/
         
-  //auto recording all
-    if (global.autoRecord) { if (m.chat) { alpha.sendPresenceUpdate('recording', m.chat) }
 
       //FUN
 

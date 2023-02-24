@@ -36,7 +36,7 @@ wa.me/62895700121662
 ◆ ▬▬▬▬▬▬▬▬▬▬ ◆
 `
 // setting 
-global.autoRecord = true
+global.autorecording = true
 global.firtsChat = true //send firts message to new user
 global.autoread = true // auto read message
 global.antidelete = true // anti delete
