@@ -4380,7 +4380,7 @@ case 'setmenu2': {
             const buttojns = [{
                   buttonId: '.command',
                   buttonText: {
-                     displayText: 🧾 List Menu'
+                     displayText: '🧾 List Menu'
                   },
                   type: 1
                },
