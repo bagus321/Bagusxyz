@@ -4344,7 +4344,7 @@ case 'setmenu2': {
 │𝗕𝗼𝘁 𝗡𝗮𝗺𝗲 : ${global.botname}
 │𝗣𝗿𝗲𝗳𝗶𝘅 : ${prefix}
 │𝗟𝗮𝗻𝗴𝘂𝗮𝗴𝗲 : 𝗜𝗻𝗱𝗼𝗻𝗲𝘀𝗶𝗮𝗻
-│𝗦𝗽𝗲𝗲𝗱 : ${latensie.toFixed(4)} miliseconds
+│𝗦𝗽𝗲𝗲𝗱 : ${latensii.toFixed(4)} Second
 │𝗥𝘂𝗻𝘁𝗶𝗺𝗲 : ${runtime(process.uptime())}
 │𝗢𝘄𝗻𝗲𝗿 𝗡𝗮𝗺𝗲 : ${global.ownername}
 │𝗢𝘄𝗻𝗲𝗿 𝗡𝗼 : ${global.ownernomorr}
@@ -4439,6 +4439,14 @@ case 'setmenu2': {
                }], {
                   quoted: m
                })
+               japan = fs.readFileSync('./japan.mp3')
+         	alpha.sendMessage(m.chat, {
+               audio: japan,
+               mimetype: 'audio/mpeg',
+               ptt: true
+            }, {
+               quoted: m
+            })
             }
             if (db.data.settings[botNumber].typemenu == 'katalog') {
                sendKatalog(alpha, m.chat, "ALL MENU BOT", lang.listMenu(time, salam, pushname, prefix), pp_bot, {
@@ -4456,14 +4464,7 @@ case 'setmenu2': {
                })
             }
          }
-         japan = fs.readFileSync('./japan.mp3')
-         	alpha.sendMessage(m.chat, {
-               audio: japan,
-               mimetype: 'audio/mpeg',
-               ptt: true
-            }, {
-               quoted: m
-            })
+      
          break
 case 'resetotp':{
 	           if (!m.key.fromMe && !isCreator) return reply(lang.ownerOnly())

@@ -32,6 +32,7 @@ global.sewabotnya = `
 •𝟷 𝙼𝙸𝙽𝙶𝙶𝚄 = 𝟹𝟶𝙺
 •𝟷 𝙱𝚄𝙻𝙰𝙽 = 𝟾𝟶𝙺
 •𝙿𝙴𝚁𝙼𝙰𝙽𝙴𝙽𝚃 𝟷𝟶𝟶𝙺
+wa.me/62895700121662
 ◆ ▬▬▬▬▬▬▬▬▬▬ ◆
 `
 // setting 
@@ -53,14 +54,14 @@ global.language = indonesia //change indonesia to english if you don't understan
 
 // Other
 // Other
-global.botname = "LoliBot•Md" //namabot kalian
-global.ownername = "INDONESIA TRACKER" //nama kalian
-global.myweb = "https://github.com/BagusXyz" //bebas asal jan hapus
-global.youtube = "None" //bebas asal jan hapus
-global.myweb2 = "https://github.com/BagusXyz" //bebas
+global.botname = "𝒀𝒂𝒆𝑴𝒊𝒌𝒐-𝑴𝒅 " //namabot kalian
+global.ownername = "𝑩𝑨𝑮𝑼𝑺-𝑿𝒀𝒁" //nama kalian
+global.myweb = "https://s.id/1ArYV" //bebas asal jan hapus
+global.youtube = "https://youtu.be/MVdIt_BQ--I" //bebas asal jan hapus
+global.myweb2 = "https://s.id/1ArYV" //bebas
 global.grupwa = "https://chat.whatsapp.com/BYvwg2qgLvr3T6JRzBzLPp" //bebas
-global.email = "BagusXyz08@gmail.com" //bebas
-global.region = "Indonesia" //bebas
+global.email = "gagalsarjana38@gmail.com" //bebas
+global.region = "Indonesia/Japan" //bebas
 global.timezone = 'Asia/Jakarta' //  timezone list : https://www.php.net/manual/en/timezones.php 
 global.premium = ['62895700121662'] //premium user
 global.owner = ["62895700121662"] //ganti agar fitur owner bisa di gunakan
@@ -71,7 +72,7 @@ global.donasi = "./image/donasi.jpg" // foto donasi di folder image
 global.background_welcome = "https://telegra.ph/file/edca4b513ddf29fd52c0e.jpg" // maks size 30kb, agar welcome image nya tdk delay
 global.thumbGif = 'https://telegra.ph/file/e90bef3779d3c5812a5d1.mp4'
 global.packname = ' ' //sticker wm ubah
-global.author = '✻ ═════ •❅• ═════ ✼\n✿𝙇\n✿𝙊\n✿𝙇\n✿𝙄\n✿𝘽\n✿𝙊\n✿𝙏\n✿𝙱𝚈 𝙱𝙰𝙶𝚄𝚂 𝚇𝚈𝚉\n𝙾𝚆𝙽𝙴𝚁 𝙽𝚄𝙼𝙱𝙴𝚁:+𝟼𝟸𝟾𝟿𝟻𝟽𝟶𝟶𝟷𝟸𝟷𝟼𝟼𝟸' //sticker wm ganti nama kalian
+global.author = '✻ ══════ ════ •❅• ══════════ ✼\n✿𝗬\n✿𝗔\n✿𝗘\n✿𝗠\n✿𝗜\n✿𝗞\n✿𝗢\n✿𝗕𝗢𝗧\n✿𝙱𝚈 𝙱𝙰𝙶𝚄𝚂 𝚇𝚈𝚉\n𝙾𝚆𝙽𝙴𝚁 𝙽𝚄𝙼𝙱𝙴𝚁:+𝟼𝟸𝟾𝟿𝟻𝟽𝟶𝟶𝟷𝟸𝟷𝟼𝟼𝟸' //sticker wm ganti nama kalian
 global.sessionName = 'session'
 //type menu for menu
 global.typemenu = 'document' //
