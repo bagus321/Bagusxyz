@@ -673,16 +673,18 @@ Selama ${clockString(new Date - user.afkTime)}
       }
 
       /*if(autorecording){
-      	if(autorecording== true) return
-      	await alpha.sendPresenceUpdate('recording', m.chat)
-      	} else if(autoketik){
-      		if(autoketik == true) return
-      		await alpha.sendPresenceUpdate('composing', m.chat)
-      		} else if(available){
-      			if(available == true) return
-      			alpha.sendPresenceUpdate('available', m.chat)
-      			}*/
-
+        	if(autorecording== true) return
+        	await alpha.sendPresenceUpdate('recording', m.chat)
+        	} else if(autoketik){
+        		if(autoketik == true) return
+        		await alpha.sendPresenceUpdate('composing', m.chat)
+        		} else if(available){
+        			if(available == true) return
+        			alpha.sendPresenceUpdate('available', m.chat)
+        			}*/
+        
+  //auto recording all
+    if (global.autoRecord) { if (m.chat) { alpha.sendPresenceUpdate('recording', m.chat) }
 
       //FUN
 
