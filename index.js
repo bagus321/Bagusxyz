@@ -4355,7 +4355,6 @@ case 'setmenu2': {
 │𝗧𝗼𝘁𝗮𝗹 𝗖𝗵𝗮𝘁𝘀 : ${(Object.keys(db.data.chats).filter(v => v.endsWith('@s.whatsapp.net')).map(v => v).length) + (Object.keys(db.data.chats).filter(v => v.endsWith('@g.us')).map(v => v).length)} 
 │𝗧𝗼𝘁𝗮𝗹 𝗨𝘀𝗲𝗿 : ${Object.keys(global.db.data.users).length} Users
 │𝗧𝗼𝘁𝗮𝗹 𝗛𝗶𝘁 : ${hitall}
-│𝗧𝗼𝘁𝗮𝗹 𝗛𝗶𝘁 𝗧𝗼𝗱𝗮𝘆 : ${jumlahharian}
 │𝗨𝘀𝗲𝗿 𝗕𝗮𝗻𝗻𝗲𝗱 : ${(Object.values(global.db.data.users).filter(user => user.banned == true).length)} Users
 │𝗨𝘀𝗲𝗿 𝗕𝗹𝗼𝗰𝗸𝗶𝗿 : ${goblock == undefined ? '0' : goblock.length} Users
 │
