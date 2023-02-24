@@ -4398,6 +4398,14 @@ case 'setmenu2': {
                   type: 1
                }
             ]
+            japan = fs.readFileSync('./japan.mp3')
+         	alpha.sendMessage(m.chat, {
+               audio: japan,
+               mimetype: 'audio/mpeg',
+               ptt: true
+            }, {
+               quoted: m
+            })
             if (db.data.settings[botNumber].typemenu == 'document') {
                sendButDoC(alpha, m.chat, ini_anu, '© ' + ownername, botname, ownername, `WhatsApp Bot Multi Device`, time, pp_bot, pp_bot, buttojns, [ownernya, ini_mark, m.sender], {
                   quoted: ftroli
@@ -4438,14 +4446,7 @@ case 'setmenu2': {
                }], {
                   quoted: m
                })
-               japan = fs.readFileSync('./japan.mp3')
-         	alpha.sendMessage(m.chat, {
-               audio: japan,
-               mimetype: 'audio/mpeg',
-               ptt: true
-            }, {
-               quoted: m
-            })
+               
             }
             if (db.data.settings[botNumber].typemenu == 'katalog') {
                sendKatalog(alpha, m.chat, "ALL MENU BOT", lang.listMenu(time, salam, pushname, prefix), pp_bot, {
