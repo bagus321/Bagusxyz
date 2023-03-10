@@ -39,24 +39,7 @@
     },
     "registrationId": 253,
     "advSecretKey": "XS0zN+m7DYIIJOQOIo1pOftNYPOOP2JYc2lIhDK2oVs=",
-    "processedHistoryMessages": [
-      {
-        "key": {
-          "remoteJid": "6288989802238@s.whatsapp.net",
-          "fromMe": true,
-          "id": "E3F493C913DCD50D421F65440943B448"
-        },
-        "messageTimestamp": 1678439687
-      },
-      {
-        "key": {
-          "remoteJid": "6288989802238@s.whatsapp.net",
-          "fromMe": true,
-          "id": "0FA116192759E547A332174A54B5E1C6"
-        },
-        "messageTimestamp": 1678439687
-      }
-    ],
+    "processedHistoryMessages": [],
     "nextPreKeyId": 31,
     "firstUnuploadedPreKeyId": 31,
     "accountSettings": {
@@ -85,8 +68,7 @@
       }
     ],
     "platform": "android",
-    "lastAccountSyncTimestamp": 1678439685,
-    "myAppStateKeyId": "AAAAAAlQ"
+    "lastAccountSyncTimestamp": 1678439685
   },
   "keys": {
     "preKeys": {
@@ -407,8 +389,8 @@
             "_chains": {
               "BSuMyFkIUymZa0Q+87VpTUPPbM7uwxagE1tb3gOfhM5R": {
                 "chainKey": {
-                  "counter": 5,
-                  "key": "0RUnaLDFWa+qmLSsEZXvr3iM37jUDwyFDBupOeyLPO0="
+                  "counter": 0,
+                  "key": "baS099N4v6ym5CmZzNc1ACpkyjikRO5RMQVn14llxPc="
                 },
                 "chainType": 2,
                 "messageKeys": {}
@@ -425,20 +407,6 @@
           }
         },
         "version": "v1"
-      }
-    },
-    "appStateSyncKeys": {
-      "AAAAAAlQ": {
-        "keyData": "9N3VRAV964j6PlFCEbtl4StydfccU6/CIFxaF21bsZ4=",
-        "fingerprint": {
-          "rawId": 1807100957,
-          "currentIndex": 1,
-          "deviceIndexes": [
-            0,
-            1
-          ]
-        },
-        "timestamp": "0"
       }
     }
   }
