@@ -39,7 +39,7 @@ wa.me/62895700121662
 global.autorecording = true
 global.firtsChat = true //send firts message to new user
 global.autoread = true // auto read message
-global.antidelete = true // anti delete
+global.antidelete = false // anti delete
 global.antiviewonce = true // anti view once
 global.autobio = false //auto ganti bio
 global.anticall = true //anti call 
