@@ -1559,7 +1559,7 @@ case 'rate':
          if (!q) return reply(`Penggunaan ${command} text\n\nContoh : ${command} Gambar aku`)
          const ra = ['5', '10', '15' ,'20', '25','30','35','40','45','50','55','60','65','70','75','80','85','90','100']
          const te = ra[Math.floor(Math.random() * ra.length)]
-         alpha.sendMessage(from, { text: `Rate : ${q}\nJawaban : *${te}%*` }, { quoted: fkontak })
+         alpha.sendMessage(from, { text: `➣Rate : ${q}\n➢Jawaban : *${te}%*` }, { quoted: fkontak })
 
           break
 case 'cekmati':
@@ -1572,7 +1572,7 @@ case 'cekganteng':
 if (!q) return reply(`Penggunaan ${command} Nama\n\nContoh : ${command} Riych`)
 const gan = ['5', '10', '15' ,'20', '25','30','35','40','45','50','55','60','65','70','75','80','85','90','100']
 const teng = gan[Math.floor(Math.random() * gan.length)]
-alpha.sendMessage(from, { text: `Nama : ${q}\nJawaban : *${teng}%*` }, { quoted: m })
+alpha.sendMessage(from, { text: `⌦𝔾𝔸ℕ𝕋𝔼ℕ𝔾 ℂ𝔼𝕂⌫\nNama : ${q}\nJawaban : *${teng}%*` }, { quoted: m })
 
 break
 case 'jodohku': {
@@ -1590,15 +1590,22 @@ let buttons = [
 await alpha.sendButtonText(m.chat, buttons, jawab, ownername, m, {mentions: ments})
 }
 break
+case 'cekmemek':
+case 'memek':
+if (!q) return reply(`Penggunaan ${command} Nama\n\nContoh : ${command} Bella`)
+const memek = ['hitam', 'pink', 'tembem', 'sempit', 'black doff', 'berjerawat', 'bau amis', 'bau karbit', 'bau bensin' ]
+const pepek = memek[Math.floor(Math.random() * memek.length)]
+alpha.sendMessage(from, { text: `━━━━❰CEK MEMEK❱━━━━\nNama : ${q}\nJenis Memek: *${pepek}%*` }, { quoted: m })
+
+break
 case 'pintercek':
 case 'cekpinter':
 case 'cekgoblok':
 case 'goblokcek':
 case 'cantikcek':
 case 'cekcantik':
- 
 if (!q) return reply(`Penggunaan ${command} Nama\n\nContoh : ${command} Riych`)
-const can = ['5', '10', '15' ,'20', '25','30','35','40','45','50','55','60','65','70','75','80','85','90','100']
+const can = ['5', '99999', '15' ,'20', '25','30','35','40','45','50','55','60','65','70','75','80','85','90','100']
 const tik = can[Math.floor(Math.random() * can.length)]
 alpha.sendMessage(from, { text: `Nama : ${q}\nJawaban : *${tik}%*` }, { quoted: m })
 
@@ -1610,13 +1617,13 @@ case 'cekgay':
 case 'lesbicek':
 case 'ceklesbi':
 if (!q) return reply(`Penggunaan ${command} Nama\n\nContoh : ${command} ${pushname}`)
-const sangeh = ['5', '10', '15','20', '25','30','35','40','45','50','55','60','65','70','75','80','85','90','100']
+const sangeh = ['5', '10', '15','20', '25','30','35','40','45','50','55','60','65','70','75','80','85','90','100', '9999999']
 const sange = sangeh[Math.floor(Math.random() * sangeh.length)]
 alpha.sendMessage(from, { text: `Nama : ${q}\nJawaban : *${sange}%*` }, { quoted: m })
 
 break
 case 'wangy':
-if (!q) return reply (`Contoh : .wangy Gur`)
+if (!q) return reply (`Contoh : .wangy Bagus`)
 qq = q.toUpperCase()
 awikwok = `${qq} ${qq} ${qq} ❤️ ❤️ ❤️ WANGY WANGY WANGY WANGY HU HA HU HA HU HA, aaaah baunya rambut ${qq} wangyy aku mau nyiumin aroma wangynya ${qq} AAAAAAAAH ~ Rambutnya.... aaah rambutnya juga pengen aku elus-elus ~~ AAAAAH ${qq} keluar pertama kali di anime juga manis ❤️ ❤️ ❤️ banget AAAAAAAAH ${qq} AAAAA LUCCUUUUUUUUUUUUUUU............ ${qq} AAAAAAAAAAAAAAAAAAAAGH ❤️ ❤️ ❤️apa ? ${qq} itu gak nyata ? Cuma HALU katamu ? nggak, ngak ngak ngak ngak NGAAAAAAAAK GUA GAK PERCAYA ITU DIA NYATA NGAAAAAAAAAAAAAAAAAK PEDULI BANGSAAAAAT !! GUA GAK PEDULI SAMA KENYATAAN POKOKNYA GAK PEDULI. ❤️ ❤️ ❤️ ${qq} gw ... ${qq} di laptop ngeliatin gw, ${qq} .. kamu percaya sama aku ? aaaaaaaaaaah syukur ${q} aku gak mau merelakan ${qq} aaaaaah ❤️ ❤️ ❤️ YEAAAAAAAAAAAH GUA MASIH PUNYA ${qq} SENDIRI PUN NGGAK SAMA AAAAAAAAAAAAAAH`
  reply(awikwok)
@@ -2369,19 +2376,19 @@ break
          break
 case 'bugmenu':{
 bug =`◆ ▬▬▬▬▬ ❴𝙃𝘼𝙍𝙂𝘼 𝙎𝙀𝙉𝘿 𝘽𝙐𝙂❵ ▬▬▬▬▬ ◆
-•𝚂𝙴𝙽𝙳 𝙱𝚄𝙶  𝙽𝙾𝙼𝙾𝚁 𝟷 = 𝟻𝙺
-•𝚂𝙴𝙽𝙳 𝙱𝚄𝙶 𝙽𝙾𝙼𝙾𝚁 𝟻 = 𝟸𝟶𝙺
+•𝚂𝙴𝙽𝙳 𝙱𝚄𝙶  𝙽𝙾𝙼𝙾𝚁 𝟷 = 3𝙺
+•𝚂𝙴𝙽𝙳 𝙱𝚄𝙶 𝙽𝙾𝙼𝙾𝚁 𝟻 = 15𝙺
 
-•𝙺𝙴𝙽𝙾𝙽 𝚆𝙰 = 𝟸𝟻𝙺
-•𝚄𝙽𝙱𝙰𝙽𝙽𝙴𝙳 𝚆𝙰 = 𝟸𝟻𝙺
-•𝚁𝙴𝚂𝙴𝚃 𝙾𝚃𝙿 = 𝟷𝟻𝙺
+•𝙺𝙴𝙽𝙾𝙽 𝚆𝙰 = 5k
+•𝚄𝙽𝙱𝙰𝙽𝙽𝙴𝙳 𝚆𝙰 = -
+•𝚁𝙴𝚂𝙴𝚃 𝙾𝚃𝙿 = 2𝙺
 
-•𝚂𝙴𝙽𝙳 𝙰𝚃𝚃𝙰𝙲𝙺 𝙴𝙼𝙾𝙹𝙸 𝟷 = 𝟷𝟶𝙺
-•𝚂𝙴𝙽𝙳 𝙰𝚃𝚃𝙰𝙲𝙺 𝙴𝙼𝙾𝙹𝙸 𝟻 =𝟸𝟶𝙺
+•𝚂𝙴𝙽𝙳 𝙰𝚃𝚃𝙰𝙲𝙺 𝙴𝙼𝙾𝙹𝙸 𝟷 = 3𝙺
+•𝚂𝙴𝙽𝙳 𝙰𝚃𝚃𝙰𝙲𝙺 𝙴𝙼𝙾𝙹𝙸 𝟻 =10𝙺
 
-•𝚂𝙴𝙽𝙳 𝙰𝚃𝚃𝙰𝙲𝙺 𝙶𝚁𝙾𝚄𝙿 𝟷 = 𝟷𝟶𝙺
-•𝚂𝙴𝙽𝙳 𝙰𝚃𝚃𝙰𝙲𝙺 𝙶𝚁𝙾𝚄𝙿 𝟻 = 𝟹𝟶𝙺
-BUY PREMIUM : 50K BEBAS AKSES 1 BULAN
+•𝚂𝙴𝙽𝙳 𝙰𝚃𝚃𝙰𝙲𝙺 𝙶𝚁𝙾𝚄𝙿 𝟷 = 2𝙺
+•𝚂𝙴𝙽𝙳 𝙰𝚃𝚃𝙰𝙲𝙺 𝙶𝚁𝙾𝚄𝙿 𝟻 = 10𝙺
+BUY PREMIUM : 20K BEBAS AKSES 1 BULAN
 HARGA MURAH MERIAH 
 PEMBAYARAN VIA DANA/PULSA
 99% WORK
@@ -4367,19 +4374,19 @@ case 'setmenu2': {
 │𝗢𝘄𝗻𝗲𝗿 : ${isCreator ? 'True' : `False`}
 │
 └─「 𝘿𝘼𝙏𝙀 𝙄𝙉𝙁𝙊 」
-│𝗠𝗮𝘀𝗲𝗵𝗶 : ${week}, ${date}
-│𝗛𝗶𝗷𝗿𝗶𝗮𝗵 : ${dateIslamic}
-└┬────────────┈ ⳹
-   │✑  選んでください
-   │      Erande kudasai
-   │✑  下のボタン
-   │      Shita no botan
-   └─────────────┈ ⳹`
+ │𝗠𝗮𝘀𝗲𝗵𝗶 : ${week}, ${date}
+ │𝗛𝗶𝗷𝗿𝗶𝗮𝗵 : ${dateIslamic}
+ └┬────────────┈ ⳹
+    │✑  選んでください
+    │      Erande kudasai
+    │✑  下のボタン
+    │      Shita no botan
+    └─────────────┈ ⳹`
 
             const buttojns = [{
-                  buttonId: '.command',
+                  buttonId: '.allmenu',
                   buttonText: {
-                     displayText: '🧾 List Menu'
+                     displayText: '⎙ All Menu\n➣𝙼𝚎𝚗𝚊𝚖𝚙𝚒𝚕𝚔𝚊𝚗 𝚂𝚎𝚖𝚞𝚊 𝙼𝚎𝚗𝚞...'
                   },
                   type: 1
                },
